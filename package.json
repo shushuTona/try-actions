@@ -1,0 +1,32 @@
+{
+  "name": "try_github_actions",
+  "version": "1.0.0",
+  "description": "try_github_actions",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --mode=production --node-env=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shushuTona/try_github_actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shushuTona/try_github_actions/issues"
+  },
+  "homepage": "https://github.com/shushuTona/try_github_actions#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.8",
+    "@webpack-cli/generators": "^2.5.0",
+    "jest": "^28.0.0",
+    "ts-jest": "^28.0.8",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.8.2",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
