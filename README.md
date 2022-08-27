@@ -1,1 +1,1 @@
-# try-actions
+# try_github_actions
